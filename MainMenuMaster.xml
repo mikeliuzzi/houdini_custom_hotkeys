@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Please note, that the files defining the main menu (ie, MainMenuCommon,
+     MainMenuMaster, and MainMenuEscape)
+     can exist in $HOME/houdiniX.Y/ directory and will supplement 
+     the original definitions found in $HFS/houdini/ -->
+
+<!-- Please see ExampleMenu.xml for examples that customise the main menu. -->
+<!-- Please see menu.xsd for the menu validation schema. -->
+<mainMenu>
+  <menuBar>
+    <subMenu id="python_menu">
+        <label>Python</label>
+
+
+      <scriptItem id="h.py.switch_to_obj">
+        <label>Switch to Obj</label>
+        <scriptCode><![CDATA[
+from __main__ import switch_context
+switch_context("obj")
+        ]]>
+        </scriptCode>
+      </scriptItem>
+
+        <scriptItem id="h.py.switch_to_mat">
+        <label>Switch to Mat</label>
+        <scriptCode><![CDATA[
+from __main__ import switch_context
+switch_context("mat")
+        ]]>
+        </scriptCode>
+      </scriptItem>
+
+        <scriptItem id="h.py.switch_to_img">
+        <label>Switch to IMG</label>
+        <scriptCode><![CDATA[
+from __main__ import switch_context
+switch_context("img")
+        ]]>
+        </scriptCode>
+      </scriptItem>
+
+        <scriptItem id="h.py.switch_to_out">
+        <label>Switch to Out</label>
+        <scriptCode><![CDATA[
+from __main__ import switch_context
+switch_context("out")
+        ]]>
+        </scriptCode>
+      </scriptItem>
+
+    </subMenu>
+  </menuBar>
+</mainMenu>
