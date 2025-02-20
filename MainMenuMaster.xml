@@ -49,6 +49,16 @@ switch_context("out")
         </scriptCode>
       </scriptItem>
 
+      
+      <scriptItem id="h.py.switch_to_stage">
+      <label>Switch to Stage</label>
+      <scriptCode><![CDATA[
+from __main__ import switch_context
+switch_context("stage")
+        ]]>
+      </scriptCode>
+      </scriptItem>
+
     </subMenu>
   </menuBar>
 </mainMenu>

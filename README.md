@@ -8,3 +8,6 @@ This contains the function that switches contexts, put this in your 'documents/h
 MainMenuMaster.xml
 
 This creates the script and menu items so the Hotkey Manager can find and integrate them. Overwrite the file in your houdini install folder with this one.
+
+For a walkthru:
+https://www.youtube.com/watch?v=oQ7Y9ZqE6Bo&t=200s
